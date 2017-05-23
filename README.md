@@ -14,6 +14,13 @@ Date: 5/2017
    + Detect motion and send alarm message over SMS, Email and Facebook messenger
    + Update current time from Internet
 
+## Pin connection:
+
+| TT | Raspberry Pi3 PIN |   Peripheral PIN   | Note                 |
+|:--:|:-------------:|:--------------:|----------------------|
+|  1 |     BCM23     | PIR Sensor/Out | Input                |
+|  2 |     BCM24     |    LED Indicator/Anot    | Output (Active High) |
+
 ## Usage: 
 
 sudo python code/homesecurity.py
